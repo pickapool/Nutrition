@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Health Nutrition Tool</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="items">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="brgy">
+        <item>Alvañiz</item>
+        <item>Amparo</item>
+        <item>Apgahan</item>
+        <item>Aureliana</item>
+        <item>Badiangan</item>
+        <item>Bitas</item>
+        <item>Carit-an</item>
+        <item>Cuyapiao</item>
+        <item>Gella</item>
+        <item>Igbarawan</item>
+        <item>Igbobon</item>
+        <item>Igburi</item>
+        <item>La Rioja</item>
+        <item>Mabasa</item>
+        <item>Macarina</item>
+        <item>Magarang</item>
+        <item>Magsaysay</item>
+        <item>Padang</item>
+        <item>Pandanan</item>
+        <item>Patlabawon</item>
+        <item>Poblacion</item>
+        <item>Quezon</item>
+        <item>Salaguiwan</item>
+        <item>Samalague</item>
+        <item>San Rafael</item>
+        <item>Tamayoc</item>
+        <item>Tigbalogo</item>
+        <item>Tobias Fornier</item>
+        <item>Villa Crespo</item>
+        <item>Villa Cruz</item>
+        <item>Villa Elio</item>
+        <item>Villa Flores</item>
+        <item>Villa Laua-an</item>
+        <item>Villa Sal</item>
+        <item>Villa Salomon</item>
+        <item>Vista Alegre</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tabs">tabs</string>
+    <string name="title_activity_profiles">Profiles</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_profiless">Profiless</string>
+    <string name="name">Where is my name</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
+

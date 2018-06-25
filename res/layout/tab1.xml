@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lloyd.healthnutritiontool.tab1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#D3D3D3"
+      >
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/header"
+    >
+</FrameLayout>
+
+
+      <android.support.v7.widget.CardView
+          android:id="@+id/card_view_one"
+          android:layout_width="match_parent"
+          android:layout_height="170dp"
+
+          android:layout_marginTop="190dp">
+
+          <TextView
+              android:id="@+id/child_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="50dp"
+              android:text="sadsad"
+              android:textAlignment="center"
+              android:textSize="20sp" />
+
+          <Button
+              android:id="@+id/personal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="200dp"
+              android:layout_marginTop="90dp"
+              android:background="@drawable/toggle_button"
+              android:enabled="true"
+              android:visibility="invisible"
+              android:onClick="show_personal"
+              android:text="Personal Information" />
+          <TextView
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                android:textSize="24dp"
+              android:layout_marginTop="120dp"
+
+              android:enabled="true"
+              android:visibility="visible"
+              android:textAlignment="center"
+              android:onClick="show_personal"
+              android:text="Patient Demographics"
+              />
+          <Button
+              android:visibility="invisible"
+              android:id="@+id/contact"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="200dp"
+              android:layout_marginRight="5dp"
+              android:layout_marginTop="90dp"
+              android:background="@drawable/toggle_button"
+              android:enabled="true"
+
+
+              android:onClick="hidePersonal"
+              android:text="Contact Information" />
+
+      </android.support.v7.widget.CardView>
+
+      <android.support.v7.widget.CardView
+          android:id="@+id/personal_card"
+          android:layout_width="match_parent"
+          android:layout_height="140dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="370dp"
+          android:background="@drawable/round1"
+android:layout_marginBottom="10dp"
+          android:visibility="visible">
+
+          <TextView
+              android:id="@+id/dob"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:textSize="20dp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="@id/dob"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="40dp"
+              android:text="Date of Birth" />
+
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginTop="70dp"
+              android:background="@android:color/darker_gray" />
+
+          <TextView
+              android:id="@+id/gen"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="80dp"
+              android:text="Male"
+              android:textSize="20dp"
+
+              />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="110dp"
+              android:text="Gender"
+
+              />
+      </android.support.v7.widget.CardView>
+
+      <android.support.v7.widget.CardView
+          android:id="@+id/contact_card"
+          android:layout_width="match_parent"
+          android:layout_height="270dp"
+          android:layout_marginBottom="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="370dp"
+          android:background="@drawable/round1"
+          android:visibility="gone">
+
+          <TextView
+              android:id="@+id/guard"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="ang ankun nanay"
+              android:textSize="20dp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="@id/dob"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="40dp"
+              android:text="Parent/Guardian" />
+
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginTop="135dp"
+              android:background="@android:color/darker_gray" />
+
+          <TextView
+              android:id="@+id/add"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="145dp"
+              android:text="Poblacion2,Hamtic, ANtique"
+              android:textSize="20dp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="175dp"
+              android:text="Address" />
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginTop="70dp"
+              android:background="@android:color/darker_gray" />
+
+          <TextView
+              android:id="@+id/con"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="80dp"
+              android:text="0921321321321"
+              android:textSize="20dp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="110dp"
+              android:text="Contact number" />
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginTop="200dp"
+              android:background="@android:color/darker_gray" />
+
+          <TextView
+              android:id="@+id/num"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="210dp"
+              android:text="99333"
+              android:textSize="20dp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="235dp"
+              android:text="House number" />
+      </android.support.v7.widget.CardView>
+  </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+       android:background="@drawable/profilepic"
+android:id="@+id/pic"
+        />
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/camera"
+        android:layout_toRightOf="@+id/pic"
+        android:id="@+id/pic_image"
+        />
+</RelativeLayout>
+    </FrameLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

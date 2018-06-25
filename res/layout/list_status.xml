@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sdasd"
+        android:background="#d1d1d1"
+        android:id="@+id/bns_name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date of Recording:"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/dorr"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/date_today_text"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/divider1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/agee"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Height:"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Weight:"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:text="MUAC:"
+            android:textSize="18dp" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/h"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/wfa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider2"
+            android:text="WFA"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wfa"
+            android:text="HFA"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/hfa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tt"
+            android:text="WFL"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hfa"
+            android:text="MUAC"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:layout_below="@id/divider2"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/wfa"
+            android:background="#8e8882" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:layout_below="@id/divider2"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="33dp"
+            android:layout_toRightOf="@id/wfa"
+            android:background="#8e8882" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:layout_below="@id/divider2"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="58dp"
+            android:layout_toRightOf="@id/wfa"
+            android:background="#8e8882" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:layout_below="@id/divider2"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="81dp"
+            android:layout_toRightOf="@id/wfa"
+            android:background="#8e8882" />
+        <TextView
+            android:id="@+id/stats1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider2"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:text="WFA"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/stats2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stats1"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:text="WFA"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/stats3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stats2"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:text="WFA"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/stats4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stats3"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:text="WFA"
+            android:textSize="18dp" />
+    </RelativeLayout>
+</LinearLayout>
